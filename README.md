@@ -93,7 +93,9 @@ columnType = [
         (~/(?i)date/)              : "LocalDate",
         (~/(?i)nvarchar/)          : "nvarchar",
         (~/(?i)varchar/)           : "varchar",
-        (~/(?i)char/)              : "String"
+        (~/(?i)char/)              : "String",
+        (~/(?i)varchar2/)           : "String",
+        (~/(?i)number/)           : "Long"
 ]
 
 def input = {
